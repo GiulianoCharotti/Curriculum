@@ -1,0 +1,13 @@
+.aboutMe{
+    .textWrapper{
+        p{
+            @include rfs(1rem);
+        }
+        .title{
+            @include margin-bottom(7rem);
+        }
+        .sub-title-a, .sub-title-d,.about-text,.details-text{
+            text-align: start;
+        }
+    }
+}

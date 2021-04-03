@@ -1,0 +1,19 @@
+.education{
+    align-content:flex-start;
+        .textWrapper{
+            text-align: start;
+        }
+    a,h3{
+        color: black;
+    }
+    #arrow-left{
+        display: inline;
+        background: url(../images/left-arrow.svg) no-repeat left;
+        padding-left: 30px;
+        font-size: 18px;
+        animation: ripple-3 3s infinite;
+        p{
+            display: inline;
+        }
+    }
+}
